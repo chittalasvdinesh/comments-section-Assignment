@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Montserrat-bold;
+    src: url(./montserratfont/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat-light;
+    src: url(./montserratfont/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-regular;
+    src: url(./montserratfont/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-semi-bold;
+    src: url(./montserratfont/Montserrat-SemiBold.ttf);
+}
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.un-order-cont {
+    list-style-type: none;
+    width:75%;
+}
+.li-view-comments-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.view-comments-cont {
+    color: #0DB647;
+}
+.inner-li-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.heading-style {
+    margin-bottom: 0px;
+    font-family: Montserrat-bold;
+}
+.date-time-style {
+    color:#75797D;
+    font-weight: bold;
+    font-family: Montserrat-light;
+}
+.view-comments-text {
+    font-weight: bold;
+    font-family: Montserrat-regular;
+    text-decoration: none;
+    color: green;
+}
+.para-cont {
+    width:80%;
+    align-self:flex-end;
+    display: flex;
+}
+.blockquote {
+    margin-left:0px
+}
+.li-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.icon-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.comment-li-cont {
+    display: flex;
+    flex-direction: column;
+}
+.li-cont::before {
+    content: "\e900";
+    font-family: "icomoon";
+    font-size:22px;
+    margin-top: 20px;
+}
+.comments-quote-cont {
+    display: flex;
+    flex-direction: column;
+}
+.view-comments-cont::after {
+    content: "\e901";
+    font-family: "icomoon";
+}
+
+
+.li-cont-green::before {
+    content: "\e900";
+    font-family: "icomoon";
+    color: green;
+}
+.li-cont-yellow::before {
+    content: "\e900";
+    font-family: "icomoon";
+    color: yellow;
+}
+.li-cont-blue::before {
+    content: "\e900";
+    font-family: "icomoon";
+    color: skyblue;
+}
+.li-cont {
+    border-bottom: 1px solid #BFC2C0;
+    padding: 5px;
+}
+.blockquote {
+    font-family: Montserrat-semi-bold;
+}
+
+.span{
+    color: green;
+    font-size: 30px;
+}
